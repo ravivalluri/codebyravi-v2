@@ -1,2 +1,3 @@
-# codebyravi-v2
-this is the second version of portfolio
+# Ravi Valluri
+
+Second version of my portfolio
