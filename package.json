@@ -5,6 +5,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
+    "gcp-build": "next build",
     "type-check": "tsc"
   },
   "dependencies": {
