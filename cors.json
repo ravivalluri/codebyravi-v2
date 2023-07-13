@@ -1,0 +1,9 @@
+[
+    {
+        "origin": ["http://codebyravi.com", "http://localhost:3000", "https://codebyravi-v2.uc.r.appspot.com"],
+        "responseHeader": ["Content-Type"],
+        "method": ["GET", "HEAD", "DELETE"],
+        "maxAgeSeconds": 3600,
+        "mode": "cors"
+    }
+]

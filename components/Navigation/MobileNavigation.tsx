@@ -130,7 +130,7 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
             href="https://github.com/codebyravi"
             className="navigation-bottom__projects-card"
           >
-            <img src="images/ss-1.png" alt="damus" />
+            <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/images/ss-1.png" alt="damus" />
             <h2>
               Damus
               <br />
@@ -143,7 +143,7 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
             rel="noopener"
             className="navigation-bottom__projects-card"
           >
-            <img src="images/2.png" alt="openleaf 1" />
+            <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/images/2.png" alt="openleaf 1" />
             <h2>OpenLeaf</h2>
           </a>
           <a
@@ -152,7 +152,7 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
             rel="noopener"
             className="navigation-bottom__projects-card"
           >
-            <img src="images/shopping-cart-1.png" alt="shopping cart 1" />
+            <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/images/shopping-cart-1.png" alt="shopping cart 1" />
             <h2>
                Shopping Cart
               <br />

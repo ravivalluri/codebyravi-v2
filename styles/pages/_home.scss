@@ -12,7 +12,7 @@
     height: 26rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url("../../public/gif/left-side.gif");
+    background-image: url("https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/gif/left-side.gif");
     @media only screen and (max-width: 45em) {
       width: 20rem;
       height: 20rem;
@@ -31,7 +31,7 @@
     height: 45rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url("../../public/gif/right-side.gif");
+    background-image: url("https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/gif/right-side.gif");
     z-index: -1;
 
     @media only screen and (max-width: 45em) {
@@ -46,7 +46,7 @@
 
 .header {
   grid-column: 3/14;
-  background-image: url(../../public/images/iphone.png);
+  background-image: url(https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/images/iphone.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -249,7 +249,7 @@
         color: #6b9796;
       }
       &::before {
-        background-image: url("../../public/svg/01.svg");
+        background-image: url("https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/01.svg");
       }
     }
     &:nth-of-type(2) {
@@ -257,7 +257,7 @@
         color: #e6972f;
       }
       &::before {
-        background-image: url("../../public/svg/02.svg");
+        background-image: url("https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/02.svg");
       }
     }
     &:nth-of-type(3) {
@@ -265,7 +265,7 @@
         color: #57a3c7;
       }
       &::before {
-        background-image: url("../../public/svg/03.svg");
+        background-image: url("https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/03.svg");
       }
     }
     &:nth-of-type(4) {
@@ -273,7 +273,7 @@
         color: #c08af1;
       }
       &::before {
-        background-image: url("../../public/svg/04.svg");
+        background-image: url("https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/04.svg");
       }
     }
 

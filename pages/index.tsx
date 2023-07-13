@@ -121,7 +121,7 @@ const index: React.FC<indexProps> = ({ }) => {
     <>
       <div id="menu-target" data-scroll-container ref={refScroll}>
         <Head>
-          <link rel="icon" href="svg/logo-left.svg" />
+          <link rel="icon" href="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/logo-left.svg" />
           <link href="https://codebyravi.com/" rel="canonical" />
           <meta name="theme-color" content="#00004d" />
           <meta
@@ -139,7 +139,7 @@ const index: React.FC<indexProps> = ({ }) => {
             content="Ravi Valluri 🚀 &mdash; Software Engineer"
           />
           <meta property="og:url" content="https://codebyravi.com/" />
-          <meta property="og:image" content="webp/preview-image.png" />
+          <meta property="og:image" content="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/logo-left.svg" />
           <meta
             property="og:description"
             content="I'm a self-taught Software Engineer and engineering the future, one line of code at a time."
@@ -152,7 +152,7 @@ const index: React.FC<indexProps> = ({ }) => {
             name="twitter:description"
             content="I'm a self-taught Software Engineer and engineering the future, one line of code at a time."
           />
-          <meta name="twitter:image" content="webp/preview-image.png" />
+          <meta name="twitter:image" content="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/logo-left.svg" />
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:url" content="https://codebyravi.com/" />
         </Head>
@@ -160,7 +160,7 @@ const index: React.FC<indexProps> = ({ }) => {
           data-scroll
           data-scroll-sticky
           data-scroll-target="#menu-target"
-          animate={{ top: "-100vh", transition: { ...transition, delay: 15 } }}
+          animate={{ top: "-100vh", transition: { ...transition, delay: 10 } }}
           className="preloader"
         >
           <div className="preloader__wrapper">
@@ -169,7 +169,7 @@ const index: React.FC<indexProps> = ({ }) => {
               animate={{ x: 0, opacity: 1, transition: { ...transition } }}
               className="preloader__left"
             >
-              <img src="svg/logo-left.svg" alt="logo" width={100} height={100}/>
+              <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/logo-left.svg" alt="logo" width={100} height={100}/>
             </motion.div>
             <motion.div
               initial={{ x: 10, opacity: 0 }}
@@ -282,10 +282,10 @@ const index: React.FC<indexProps> = ({ }) => {
               </div>
               <div
                 className="project-card__middle"
-                data-displacement="webp/myDistorsionImage.webp"
+                data-displacement="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/webp/myDistorsionImage.webp"
               >
-                <img src="images/ios-image-crop-1.png" alt="image crop 1" />
-                <img src="images/ios-image-crop-2.png" alt="image crop 2" />
+                <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/images/ios-image-crop-1.png" alt="image crop 1" />
+                <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/images/ios-image-crop-2.png" alt="image crop 2" />
               </div>
               <div className="project-card__right">
                 <h2
@@ -325,10 +325,10 @@ const index: React.FC<indexProps> = ({ }) => {
               </div>
               <div
                 className="project-card__middle"
-                data-displacement="webp/myDistorsionImage.webp"
+                data-displacement="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/webp/myDistorsionImage.webp"
               >
-                <img src="images/ss-1.png" alt="damus" />
-                <img src="images/ss-2.png" alt="damus" />
+                <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/images/ss-1.png" alt="damus" />
+                <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/images/ss-2.png" alt="damus" />
               </div>
               <div className="project-card__right">
                 <h2
@@ -377,10 +377,10 @@ const index: React.FC<indexProps> = ({ }) => {
               </div>
               <div
                 className="project-card__middle"
-                data-displacement="webp/myDistorsionImage.webp"
+                data-displacement="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/webp/myDistorsionImage.webp"
               >
-                <img src="images/2.png" alt="openleaf 1" />
-                <img src="images/4.png" alt="openleaf 2" />
+                <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/images/2.png" alt="openleaf 1" />
+                <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/images/4.png" alt="openleaf 2" />
               </div>
               <div className="project-card__right">
                 <h2
@@ -420,10 +420,10 @@ const index: React.FC<indexProps> = ({ }) => {
               </div>
               <div
                 className="project-card__middle"
-                data-displacement="webp/myDistorsionImage.webp"
+                data-displacement="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/webp/myDistorsionImage.webp"
               >
-                <img src="images/shopping-cart-1.png" alt="shopping cart 1" />
-                <img src="images/shopping-cart-2.png" alt="shopping cart 2" />
+                <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/images/shopping-cart-1.png" alt="shopping cart 1" />
+                <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/images/shopping-cart-2.png" alt="shopping cart 2" />
               </div>
               <div className="project-card__right">
                 <h2
@@ -545,7 +545,7 @@ const index: React.FC<indexProps> = ({ }) => {
         </main>
         <footer className="footer">
           <img
-            src="svg/logo-left.svg"
+            src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/logo-left.svg"
             alt="design and developed by ravi valluri"
           />
           <div className="footer__socials">

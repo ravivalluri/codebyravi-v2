@@ -41,13 +41,13 @@ export const Navigation = ({ isOpen, toggleOpen }: any) => {
         <Link href="/" className="brand-logo">
             <img
               className="brand-logo__icon"
-              src="svg/logo-left.svg"
+              src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/logo-left.svg"
               alt="logo icon"
             />
             <span className="brand-logo__text-wrapper">
               <img
                 className="brand-logo__text"
-                src="svg/logo-right.svg"
+                src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/logo-right.svg"
                 alt="logo text"
               />
             </span>
