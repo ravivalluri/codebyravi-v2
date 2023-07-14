@@ -3,9 +3,6 @@ import Head from "next/head";
 import { motion } from "framer-motion";
 import { Navigation } from "../components/Navigation/Navigation";
 import ReactGa from "react-ga";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faInstagram, faLinkedin, faMedium, faStackOverflow, faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { Bio } from "../components/Bio";
 
 interface indexProps { }
@@ -225,38 +222,38 @@ const index: React.FC<indexProps> = ({ }) => {
                 rel="noopener"
                 target="_blank" role="button" title="github"
               >
-                <FontAwesomeIcon icon={faGithub} style={{color: "#FFFFFF",}} size="2x" />
+                <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/github.svg" alt="github icon" className="github-icon" />
               </a>
               <a
                 href="https://www.linkedin.com/in/ravivalluri"
                 rel="noopener"
                 target="_blank" role="button" title="linkedin"
               >
-                <FontAwesomeIcon icon={faLinkedin} style={{color: "#FFFFFF",}} size="2x" />
+                <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/linkedin.svg" alt="linkedin icon" className="linkedin-icon" />
               </a>
               <a
                 href="https://medium.com/codebyravi"
                 rel="noopener"
                 target="_blank" role="button" title="medium"
               >
-                <FontAwesomeIcon icon={faMedium} style={{color: "#FFC0CB",}} size="2x" />
+                <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/medium.svg" alt="medium icon" className="medium-icon" />
               </a>
               <a href="https://stackoverflow.com/users/10334272/ravi-valluri" rel="noopener" target="_blank" role="button" title="stackoverflow">
-                <FontAwesomeIcon icon={faStackOverflow} style={{color: "#F47F24",}} size="2x" />
+                <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/stackoverflow.svg" alt="stackoverflow icon" className="stackoverflow-icon" />
               </a>
               <a
                 href="https://twitter.com/ravinous"
                 rel="noopener"
                 target="_blank" role="button" title="twitter"
               >
-                <FontAwesomeIcon icon={faTwitter} style={{color: "#1DA1F2" }} size="2x" />
+                <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/twitter.svg" alt="twitter icon" className="twitter-icon" />
               </a>
               <a
                 href="https://www.instagram.com/_ravinous_"
                 rel="noopener"
                 target="_blank" role="button" title="instagram"
               >
-                <FontAwesomeIcon icon={faInstagram} style={{color: "#FD1D1D",}} size="2x" />
+                <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/instagram.svg" alt="instagram icon" className="instagram-icon" />
               </a>
             </div>
           </div>
@@ -313,7 +310,7 @@ const index: React.FC<indexProps> = ({ }) => {
                     href="https://github.com/codebyravi"
                     role="button" title="github"
                   >
-                    <FontAwesomeIcon icon={faGithub} beat style={{color: "#FFFFFF",}} size="2x" />
+                    <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/github.svg" alt="github icon" className="github-icon" />
                   </a>
                 </div>
               </div>
@@ -363,7 +360,7 @@ const index: React.FC<indexProps> = ({ }) => {
                     href="https://github.com/codebyravi"
                     role="button" title="github"
                   >
-                    <FontAwesomeIcon icon={faGithub} beat style={{color: "#FFFFFF",}} size="2x" />
+                    <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/github.svg" alt="github icon" className="github-icon" />
                   </a>
                 </div>
               </div>
@@ -408,7 +405,7 @@ const index: React.FC<indexProps> = ({ }) => {
                     href="https://github.com/codebyravi"
                     role="button" title="github"
                   >
-                    <FontAwesomeIcon icon={faGithub} beat style={{color: "#FFFFFF",}} size="2x" />
+                    <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/github.svg" alt="github icon" className="github-icon" />
                   </a>
                 </div>
               </div>
@@ -458,7 +455,7 @@ const index: React.FC<indexProps> = ({ }) => {
                     href="https://github.com/codebyravi"
                     role="button" title="github"
                   >
-                    <FontAwesomeIcon icon={faGithub} beat style={{color: "#FFFFFF",}} size="2x" />
+                    <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/github.svg" alt="github icon" className="github-icon" />
                   </a>
                 </div>
               </div>
@@ -479,7 +476,7 @@ const index: React.FC<indexProps> = ({ }) => {
               Thanks for your visit. Currently, I'm on the lookout to be part of an innovative team. If you believe we could make a great team, don't hesitate to ring me up
               <a href="tel:+19403919013" role="button" title="phone"> 
                &nbsp;
-               <FontAwesomeIcon icon={faPhone} beat style={{color: "#FFFFFF",}} />
+               <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/phone.svg" alt="phone" className="phone-icon" />
                &nbsp;
               </a>
               or send me an
@@ -489,7 +486,7 @@ const index: React.FC<indexProps> = ({ }) => {
                 target="_blank" role="button" title="email"
               >
                 &nbsp;
-                <FontAwesomeIcon icon={faEnvelope} beat style={{color: "#FFFFFF",}} />
+                <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/email.svg" alt="email" className="email-icon" />
                 &nbsp;
               </a>
             </h2>
@@ -506,24 +503,24 @@ const index: React.FC<indexProps> = ({ }) => {
                 target="_blank"
                 role="button" title="github"
               >
-                <FontAwesomeIcon icon={faGithub} beat style={{color: "#FFFFFF",}} size="2x" />
+                <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/github.svg" alt="github icon" className="github-icon"/>
               </a>
               <a
                 href="https://medium.com/codebyravi"
                 rel="noopener"
                 target="_blank" role="button" title="medium"
               >
-                <FontAwesomeIcon icon={faMedium} style={{color: "#FFFFFF",}} size="2x" />
+                <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/medium.svg" alt="medium icon" className="medium-icon"/>
               </a>
               <a href="https://stackoverflow.com/users/10334272/ravi-valluri" rel="noopener" target="_blank" role="button" title="stackoverflow">
-                <FontAwesomeIcon icon={faStackOverflow} style={{color: "#FFFFFF",}} size="2x" />
+                <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/stackoverflow.svg" alt="stackoverflow icon" className="stackoverflow-icon"/>
               </a>
               <a
                 href="https://twitter.com/rav1n9"
                 rel="noopener"
                 target="_blank" role="button" title="twitter"
               >
-                <FontAwesomeIcon icon={faTwitter} beat style={{color: "#FFFFFF",}} size="2x" />
+                <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/twitter.svg" alt="twitter icon" className="twitter-icon"/>
               </a>
               <a
                 href="https://www.linkedin.com/in/ravivalluri"
@@ -531,14 +528,14 @@ const index: React.FC<indexProps> = ({ }) => {
                 target="_blank"
                 role="button" title="linkedin"
               >
-                <FontAwesomeIcon icon={faLinkedin} beat style={{color: "#FFFFFF",}} size="2x" />
+                <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/linkedin.svg" alt="linkedin icon" className="linkedin-icon"/>
               </a>
               <a
                 href="https://www.instagram.com/rav1n9"
                 rel="noopener"
                 target="_blank" role="button" title="instagram"
               >
-                <FontAwesomeIcon icon={faInstagram} beat style={{color: "#FFFFFF",}} size="2x" />
+                <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/instagram.svg" alt="instagram icon" className="instagram-icon"/>
               </a>
             </div>
           </section>
@@ -554,7 +551,7 @@ const index: React.FC<indexProps> = ({ }) => {
               target="_blank"
               rel="noopener" role="button" title="github"
             >
-              <FontAwesomeIcon icon={faGithub} style={{color: "#FFFFFF",}} size="2x" />
+              <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/github.svg" alt="github-icon" className="github-icon" />
             </a>
           </div>
         </footer>

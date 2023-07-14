@@ -142,7 +142,7 @@
     }
 
     &--right {
-      width: 30rem;
+      width: 60rem;
       @include centerContent;
     }
     a {
@@ -612,4 +612,39 @@
     @include centerContent;
     width: 6rem;
   }
+}
+
+// icons
+.email-icon {
+  width: 4rem;
+  height: 4rem;
+
+}
+.phone-icon {
+  width: 4rem;
+  height: 4rem;
+}
+.github-icon {
+  width: 5rem;
+  height: 5rem;
+}
+.medium-icon {
+  width: 5rem;
+  height: 5rem;
+}
+.stackoverflow-icon {
+  width: 5rem;
+  height: 5rem;
+}
+.twitter-icon {
+  width: 5rem;
+  height: 5rem;
+}
+.instagram-icon {
+  width: 5rem;
+  height: 5rem;
+}
+.linkedin-icon {
+  width: 5rem;
+  height: 5rem;
 }

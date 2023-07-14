@@ -1,7 +1,5 @@
 import * as React from "react";
 import { motion } from "framer-motion";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faInstagram, faLinkedin, faMedium, faStackOverflow, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 const openTransition = {
   duration: 1.1,
@@ -58,7 +56,7 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
             target="_blank"
             role="button" title="github"
           >
-            <FontAwesomeIcon icon={faGithub} beat style={{color: "#FFFFFF",}} size="2x" />
+            <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/github.svg" alt="github" className="github-icon" />
           </a>
           <a
             href="https://www.linkedin.com/in/ravivalluri"
@@ -66,39 +64,31 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
             target="_blank"
             role="button" title="linkedin"
           >
-            <FontAwesomeIcon icon={faLinkedin} beat style={{color: "#FFFFFF",}} size="2x" />
+            <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/linkedin.svg" alt="linkedin icon" className="linkedin-icon" />
           </a>
           <a
             href="https://medium.com/codebyravi"
             rel="noopener"
             target="_blank" role="button" title="medium"
             >
-              <FontAwesomeIcon icon={faMedium} style={{color: "#FFC0CB",}} size="2x" />
+              <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/medium.svg" alt="medium icon" className="medium-icon" />
           </a>
           <a href="https://stackoverflow.com/users/10334272/ravi-valluri" rel="noopener" target="_blank" role="button" title="stackoverflow">
-              <FontAwesomeIcon icon={faStackOverflow} style={{color: "#F47F24",}} size="2x" />
+              <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/stackoverflow.svg" alt="stackoverflow icon" className="stackoverflow-icon" />
           </a>
           <a
             href="https://twitter.com/rav1n9"
             rel="noopener"
             target="_blank" role="button" title="twitter"
           >
-            <FontAwesomeIcon icon={faTwitter} beat style={{color: "#FFFFFF",}} size="2x" />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/ravivalluri"
-            rel="noopener"
-            target="_blank"
-            role="button" title="linkedin"
-          >
-            <FontAwesomeIcon icon={faLinkedin} beat style={{color: "#FFFFFF",}} size="2x" />
+            <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/twitter.svg" alt="twitter icon" className="twitter-icon" />
           </a>
           <a
             href="https://www.instagram.com/rav1n9"
             rel="noopener"
             target="_blank" role="button" title="instagram"
           >
-            <FontAwesomeIcon icon={faInstagram} beat style={{color: "#FFFFFF",}} size="2x" />
+            <img src="https://storage.googleapis.com/bucket-static-assets-codebyravi-v2/svg/instagram.svg" alt="instagram icon" className="instagram-icon" />
           </a>
           </div>
         </div>
