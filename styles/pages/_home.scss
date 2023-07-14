@@ -55,10 +55,40 @@
     grid-column: 1/15;
     padding: 0 4rem;
   }
+  @media only screen and (max-width: 600px) {
+    padding: 0;
+    background-size: cover;
+  }
+  @media only screen 
+  and (min-device-width: 800px) 
+  and (max-device-width: 1024px)  {
+    grid-column: 2/14;
+    height: 155vh;
+    background-size: cover;
+  }
+  @media only screen 
+  and (min-device-width: 600px) 
+  and (max-device-width: 800px)  {
+    grid-column: 2/14;
+    height: 170vh;
+    background-size: cover;
+  }
 
   &__hero {
     padding-top: 20rem;
     padding-left: 8rem;
+    @media only screen and (max-width: 600px) {
+      padding-top: 0;
+      padding-left: 0;
+      margin-top: 25rem;
+    }
+    @media only screen 
+    and (min-device-width: 600px) 
+    and (max-device-width: 1024px)  {
+      padding-top: 0;
+      padding-left: 4rem;
+      margin-top: 20rem;
+    }
     &--heading {
       font-family: $font-secondary;
       font-size: 6rem;
@@ -75,7 +105,15 @@
           display: none;
         }
       }
-
+      @media only screen and (max-width: 600px) {
+        font-size: 4rem;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+        margin-top: 25rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+      }
       &-gradient {
         background: linear-gradient(
           -45deg,
@@ -415,109 +453,10 @@
   }
 }
 
-// section=planets
-
-.section-planets {
-  grid-column: 1/15;
-  display: grid;
-  grid-template-columns: 1fr repeat(12, minmax(min-content, 10rem)) 1fr;
-  padding: 8rem 0;
-  transition: all 0.3s ease-in-out;
-  &__top {
-    grid-column: 2/14;
-    padding: 0 6rem;
-
-    @media only screen and (max-width: 57em) {
-      grid-column: 1/15;
-    }
-    @media only screen and (max-width: 45em) {
-      padding: 0 4rem;
-    }
-
-    p {
-      margin-top: 1.5rem;
-    }
-  }
-
-  &__bottom {
-    grid-column: 1/15;
-    overflow-x: hidden;
-    margin-top: 8rem;
-    margin-bottom: 4rem;
-    &-wrapper {
-      @include centerContent;
-      width: max-content;
-      .planet-card {
-        background: #171e2f;
-        border-radius: 2rem;
-        padding: 3rem;
-        margin: 1.5rem;
-        &__top {
-          @include centerContent;
-          margin-bottom: 3rem;
-          // &--left {
-          // }
-          // &--right {
-          //   img {
-          //   }
-          // }
-        }
-
-        // &__bottom {
-        // }
-
-        &__p {
-          font-size: 0.8rem;
-          text-transform: uppercase;
-          line-height: 81.4%;
-          letter-spacing: 0.25em;
-          color: #585e6e;
-        }
-
-        &__h3 {
-          font-size: 1.9rem;
-          line-height: 81.4%;
-          letter-spacing: -0.01em;
-          color: #585e6e;
-          margin-top: 1.5rem;
-          font-weight: 100;
-        }
-
-        &__h2 {
-          font-size: 2rem;
-          line-height: 130.4%;
-          color: var(--color-white);
-          font-weight: 100;
-        }
-      }
-    }
-  }
-  div:first-child {
-    display: grid;
-    grid-column: 1/-1;
-  }
-}
-
-.planet-card__anim1 {
-  animation: planetCardAnim1 25s ease-in-out infinite alternate;
-
-  &:hover {
-    animation-play-state: paused;
-  }
-}
-
-.planet-card__anim2 {
-  animation: planetCardAnim2 25s ease-in-out infinite alternate;
-  &:hover {
-    animation-play-state: paused;
-  }
-}
-
 // section-contact
 .section-contact {
   grid-column: 2/14;
   padding: 0 6rem;
-  margin-top: 12rem;
 
   @media only screen and (max-width: 57em) {
     grid-column: 1/15;

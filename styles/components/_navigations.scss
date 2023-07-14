@@ -28,9 +28,16 @@
     border-radius: 5rem;
     height: 10rem;
 
-    @media only screen and (max-width: 1024px) {
-      left: 4rem;
-      top: 10rem;
+    @media only screen 
+    and (min-device-width: 600px) 
+    and (max-device-width: 1024px)  {
+      left: 0;
+    }
+    @media only screen and (max-width: 600px) {
+      left: 0;
+      width: 50rem;
+      top: 9rem;
+      height: 12rem;
     }
 
     .brand-logo {
@@ -95,9 +102,13 @@
   width: 100%;
   overflow: hidden;
   height: 100vh;
-  background-color: #171A0B;
+  background-color: #000042;
   color: var(--color-white);
   overflow-y: scroll;
+  @media only screen and (max-width: 600px) {
+    height: 120vh;
+    overflow: auto;
+  }
 }
 
 .navigation-top {

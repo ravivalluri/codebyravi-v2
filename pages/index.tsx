@@ -461,13 +461,6 @@ const index: React.FC<indexProps> = ({ }) => {
               </div>
             </div>
           </section>
-          <section
-            data-scroll
-            data-scroll-offset="35%"
-            data-scroll-repeat={true}
-            data-scroll-class="section-planets__bg"
-            className="section-planets">
-          </section>
           <section className="section-contact">
             <h1 className="heading-1">
               <span>Convinced yet? </span> <small>🤙🏾</small>
